@@ -1,0 +1,1735 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly should renders correctly bid tab view  1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#00193d",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <Image
+    resizeMode="cover"
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/combined_shape.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "height": 72.5,
+          "marginBottom": 16.5,
+          "marginTop": 39.5,
+          "paddingLeft": 48,
+          "paddingRight": 48,
+          "zIndex": 3,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="backButton"
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={20}
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 20,
+            },
+          ]
+        }
+        vbHeight={14}
+        vbWidth={14}
+        width={20}
+      >
+        <RNSVGGroup>
+          <RNSVGPath
+            d="M7.53.47a.75.75 0 01.067.984l-.067.076L2.81 6.25H13a.75.75 0 01.094 1.494L13 7.75H2.811l4.72 4.72a.75.75 0 01.066.984l-.067.076a.75.75 0 01-.984.067l-.076-.067-6-6-.064-.072a.752.752 0 01-.004-.005l.068.077A.754.754 0 01.25 7v-.03l.004-.044L.25 7a.754.754 0 01.153-.454L.47 6.47l6-6a.75.75 0 011.06 0z"
+            fill={4294967295}
+            fillRule={0}
+            propList={
+              Array [
+                "fill",
+                "fillRule",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-between",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "Oxygen-Regular",
+              "fontSize": 25,
+              "fontWeight": "normal",
+              "paddingLeft": 30,
+              "paddingRight": 30,
+            },
+          ]
+        }
+      >
+        Bids
+      </Text>
+    </View>
+  </View>
+  <Modal
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.3)",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 10,
+              "marginBottom": "auto",
+              "marginHorizontal": 37.5,
+              "marginTop": "auto",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "paddingHorizontal": 31,
+                "paddingVertical": 37.5,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "Oxygen-Regular",
+                  "fontSize": 27.5,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Confirmation
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "Oxygen-Bold",
+                  "fontSize": 20,
+                  "marginTop": 16.5,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Are you sure you want to Unawarded this project?
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginBottom": 20,
+                "marginLeft": 20,
+                "marginRight": 20,
+                "marginTop": 20,
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "borderColor": "#00193d",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "opacity": 1,
+                "paddingHorizontal": 31,
+                "paddingVertical": 21.5,
+                "width": 149.5,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#00193D",
+                      "fontFamily": "Oxygen-Regular",
+                      "fontSize": 17.5,
+                      "fontWeight": "bold",
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                Cancel
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#00193D",
+                "borderColor": "#00193d",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "opacity": 1,
+                "paddingHorizontal": 31,
+                "paddingVertical": 21.5,
+                "width": 149.5,
+              }
+            }
+          >
+            <Text
+              color="#fff"
+              style={
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "Oxygen-Bold",
+                    "fontSize": 17.5,
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              Yes
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>
+  <Modal
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.3)",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderColor": "#D3D3D5",
+              "borderRadius": 25,
+              "borderWidth": 2.5,
+              "marginBottom": "auto",
+              "marginHorizontal": 25,
+              "marginTop": "auto",
+              "paddingHorizontal": 31,
+              "paddingVertical": 25,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "color": "#333333",
+                  "fontFamily": "Oxygen-Bold",
+                  "fontSize": 22.5,
+                },
+              ]
+            }
+          >
+            Profile
+          </Text>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontSize": 30,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "anticon",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <Image
+          source={
+            Object {
+              "uri": undefined,
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "borderColor": "#E9E9EA",
+                "borderRadius": 62.5,
+                "borderWidth": 6,
+                "height": 148,
+                "marginTop": 33,
+                "width": 180,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "marginBottom": 6,
+                "marginLeft": 6,
+                "marginRight": 6,
+                "marginTop": 6,
+                "position": "absolute",
+                "right": 236,
+                "top": 180.5,
+              },
+            ]
+          }
+        >
+          <RNSVGSvgView
+            bbHeight={30}
+            bbWidth={30}
+            focusable={false}
+            height={30}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 30,
+                  "width": 30,
+                },
+              ]
+            }
+            width={30}
+          >
+            <RNSVGGroup>
+              <RNSVGGroup
+                fill={4293752623}
+                fillRule={0}
+                propList={
+                  Array [
+                    "fill",
+                    "fillRule",
+                  ]
+                }
+              >
+                <RNSVGCircle
+                  cx={15}
+                  cy={15}
+                  opacity={0.1}
+                  r={15}
+                />
+                <RNSVGPath
+                  d="M21.4 8.867a3.839 3.839 0 00-3.155-1.917A3.868 3.868 0 0015 5.192a3.868 3.868 0 00-3.246 1.758A3.868 3.868 0 008.6 8.867a3.822 3.822 0 00-.092 3.674 3.804 3.804 0 001.562 5.1v8.196a.7.7 0 00.404.635c.248.116.54.078.75-.096l3.774-3.128 3.774 3.128c.21.174.502.212.75.096a.7.7 0 00.405-.635v-8.196a3.802 3.802 0 001.565-5.1 3.791 3.791 0 00-.091-3.674zm-10.815 3.016a1.731 1.731 0 01-.156-1.966 1.754 1.754 0 011.79-.848c.49.074.967-.2 1.146-.659A1.75 1.75 0 0115 7.292a1.75 1.75 0 011.634 1.118c.181.458.656.73 1.145.657a1.754 1.754 0 011.794.848c.363.625.3 1.408-.159 1.968-.31.385-.31.932 0 1.317.457.56.52 1.341.156 1.965a1.752 1.752 0 01-1.79.847 1.07 1.07 0 00-1.144.656A1.75 1.75 0 0115 17.788a1.75 1.75 0 01-1.635-1.12 1.056 1.056 0 00-1.148-.656 1.755 1.755 0 01-1.794-.849 1.733 1.733 0 01.158-1.969c.31-.382.311-.927.004-1.311z"
+                  fillRule={1}
+                  propList={
+                    Array [
+                      "fillRule",
+                    ]
+                  }
+                />
+                <RNSVGPath
+                  d="M14.986 15c.546 0 .973-.114 1.282-.343.308-.23.463-.561.463-.996 0-.288-.076-.53-.228-.726-.152-.196-.37-.33-.657-.399a.998.998 0 00.505-.346 1.093 1.093 0 00.187-.646c0-.416-.15-.713-.452-.892-.301-.178-.759-.267-1.372-.267h-1.445V15h1.717zm-.127-2.71h-.733v-1.278h.56c.356 0 .615.045.779.135.163.09.245.256.245.498 0 .43-.284.646-.85.646zm.01 2.093h-.743v-1.497h.72c.344 0 .598.057.763.17.164.114.246.3.246.558 0 .512-.329.769-.986.769z"
+                  fillRule={1}
+                  propList={
+                    Array [
+                      "fillRule",
+                    ]
+                  }
+                />
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#333333",
+                "fontFamily": "Oxygen-Bold",
+                "fontSize": 25,
+                "marginVertical": 16.5,
+                "textTransform": "capitalize",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "paddingBottom": 33,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "Oxygen-Bold",
+                  "fontSize": 22.5,
+                  "paddingTop": 33,
+                },
+              ]
+            }
+          >
+            About Me
+          </Text>
+          <Text
+            color="#333333"
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontSize": 17.5,
+                  "lineHeight": 22.5,
+                  "marginTop": 8,
+                },
+              ]
+            }
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flexBasis": 0,
+                  "flexGrow": 0.48,
+                  "flexShrink": 1,
+                  "marginBottom": 13,
+                },
+              ]
+            }
+          >
+            <Text
+              color="rgb(130, 130, 130)"
+              style={
+                Array [
+                  Object {
+                    "color": "rgb(130, 130, 130)",
+                    "fontSize": 17.5,
+                    "lineHeight": 22.5,
+                    "marginTop": 8,
+                  },
+                ]
+              }
+            >
+              Company Name
+            </Text>
+            <Text
+              color="#333333"
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontSize": 17.5,
+                    "lineHeight": 22.5,
+                    "marginTop": 8,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexBasis": 0,
+                  "flexGrow": 0.48,
+                  "flexShrink": 1,
+                  "marginBottom": 13,
+                },
+              ]
+            }
+          >
+            <Text
+              color="rgb(130, 130, 130)"
+              style={
+                Array [
+                  Object {
+                    "color": "rgb(130, 130, 130)",
+                    "fontSize": 17.5,
+                    "lineHeight": 22.5,
+                    "marginTop": 8,
+                  },
+                ]
+              }
+            >
+              Member Since
+            </Text>
+            <Text
+              color="#333333"
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontSize": 17.5,
+                    "lineHeight": 22.5,
+                    "marginTop": 8,
+                  },
+                ]
+              }
+            >
+              April 3, 2023
+            </Text>
+          </View>
+        </View>
+        <Text
+          color="rgb(130, 130, 130)"
+          style={
+            Array [
+              Object {
+                "color": "rgb(130, 130, 130)",
+                "fontSize": 17.5,
+                "lineHeight": 22.5,
+                "marginTop": 8,
+              },
+            ]
+          }
+        >
+          Address
+        </Text>
+        <Text
+          color="#333333"
+          style={
+            Array [
+              Object {
+                "color": "#333333",
+                "fontSize": 17.5,
+                "lineHeight": 22.5,
+                "marginTop": 8,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <RCTScrollView
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderTopLeftRadius": 41,
+          "borderTopRightRadius": 41,
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "paddingLeft": 40,
+              "paddingRight": 40,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "borderColor": "#F5F5F5",
+                "borderRadius": 12.5,
+                "borderWidth": 3.5,
+                "flexDirection": "column",
+                "marginTop": 33,
+              },
+            ]
+          }
+        >
+          <View
+            marginBottom={0}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 0,
+                  "marginLeft": 28,
+                  "marginRight": 28,
+                  "marginTop": 33,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexBasis": 0,
+                    "flexDirection": "row",
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "justifyContent": "space-between",
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexBasis": 0,
+                      "flexDirection": "row",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "justifyContent": "space-between",
+                    },
+                  ]
+                }
+              >
+                <View
+                  color="#DBE6DC"
+                  style={
+                    Array [
+                      Object {
+                        "alignSelf": "flex-start",
+                        "backgroundColor": "#DBE6DC",
+                        "borderRadius": 25,
+                        "color": "#fff",
+                        "height": 46,
+                        "marginBottom": 16.5,
+                        "paddingHorizontal": 40,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    statusColor="#55875C"
+                    style={
+                      Array [
+                        Object {
+                          "borderRadius": 25,
+                          "color": "#55875C",
+                          "fontFamily": "SourceSansPro-SemiBold",
+                          "marginBottom": "auto",
+                          "marginLeft": "auto",
+                          "marginRight": "auto",
+                          "marginTop": "auto",
+                        },
+                      ]
+                    }
+                  >
+                    Project Awarded
+                  </Text>
+                </View>
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                  testID="makeCallButton"
+                >
+                  <RNSVGSvgView
+                    bbHeight={24}
+                    bbWidth={24}
+                    color={4278196541}
+                    focusable={false}
+                    height={24}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        Object {
+                          "background": "#fff",
+                        },
+                        Object {
+                          "flex": 0,
+                          "height": 24,
+                          "width": 24,
+                        },
+                      ]
+                    }
+                    tintColor={4278196541}
+                    width={24}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <RNSVGGroup>
+                      <RNSVGGroup
+                        fill={null}
+                        fillRule={0}
+                        propList={
+                          Array [
+                            "fill",
+                            "fillRule",
+                          ]
+                        }
+                      >
+                        <RNSVGPath
+                          d="M0 0h24v24H0z"
+                          fill={4294967295}
+                          propList={
+                            Array [
+                              "fill",
+                            ]
+                          }
+                        />
+                        <RNSVGPath
+                          d="M8.014 3.25H5.607A2.354 2.354 0 0 0 3.26 5.818a16.63 16.63 0 0 0 2.588 7.302 16.414 16.414 0 0 0 5.054 5.042 16.683 16.683 0 0 0 7.264 2.577 2.354 2.354 0 0 0 2.585-2.354v-2.406a2.352 2.352 0 0 0-2.03-2.372 9.63 9.63 0 0 1-1.694-.38l-.582-.2a2.361 2.361 0 0 0-2.313.588l-.611.608-.21-.133a12.11 12.11 0 0 1-3.422-3.416l-.133-.208.606-.604a2.355 2.355 0 0 0 .534-2.49 9.538 9.538 0 0 1-.522-2.09 2.36 2.36 0 0 0-2.36-2.032zm-2.406 1.5h2.413a.86.86 0 0 1 .866.736c.109.82.311 1.632.603 2.414a.854.854 0 0 1-.192.903L8.28 9.82a.75.75 0 0 0-.121.902 13.609 13.609 0 0 0 5.108 5.098.75.75 0 0 0 .9-.121l1.022-1.02a.86.86 0 0 1 .904-.19 11.1 11.1 0 0 0 2.426.604c.425.06.743.433.732.867v2.428a.856.856 0 0 1-.937.859 15.179 15.179 0 0 1-6.602-2.348 14.93 14.93 0 0 1-4.602-4.59A15.126 15.126 0 0 1 4.752 5.67a.861.861 0 0 1 .856-.921z"
+                          fill={4278727022}
+                          propList={
+                            Array [
+                              "fill",
+                            ]
+                          }
+                        />
+                      </RNSVGGroup>
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "paddingBottom": 19.5,
+                  "paddingLeft": 28,
+                  "paddingRight": 28,
+                  "paddingTop": 19.5,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexBasis": 0,
+                    "flexDirection": "row",
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "justifyContent": "space-between",
+                  },
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/bitMap/group6.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "borderRadius": 50,
+                      "height": 65.5,
+                      "width": 80,
+                    },
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexBasis": 0,
+                      "flexDirection": "column",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "flexWrap": "wrap",
+                      "justifyContent": "flex-start",
+                      "paddingLeft": 16.5,
+                      "paddingRight": 16.5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "rgb(130, 130, 130)",
+                        "flexWrap": "wrap",
+                        "fontFamily": "SourceSansPro-Regular",
+                        "fontSize": 17.5,
+                        "lineHeight": 22.5,
+                        "paddingRight": 20,
+                        "width": 300,
+                      },
+                    ]
+                  }
+                >
+                  Company
+                </Text>
+                <Text
+                  ellipsizeMode="tail"
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flexWrap": "wrap",
+                        "fontFamily": "SourceSansPro-Regular",
+                        "fontSize": 17.5,
+                        "lineHeight": 22.5,
+                        "paddingRight": 20,
+                        "width": 300,
+                      },
+                    ]
+                  }
+                >
+                  nEW cOMPANY NAME pLAN NAME
+                </Text>
+              </View>
+              <RNSVGSvgView
+                bbHeight={30}
+                bbWidth={30}
+                focusable={false}
+                height={30}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Object {
+                      "flex": 0,
+                      "height": 30,
+                      "width": 30,
+                    },
+                  ]
+                }
+                width={30}
+              >
+                <RNSVGGroup>
+                  <RNSVGGroup
+                    fill={4293752623}
+                    fillRule={0}
+                    propList={
+                      Array [
+                        "fill",
+                        "fillRule",
+                      ]
+                    }
+                  >
+                    <RNSVGCircle
+                      cx={15}
+                      cy={15}
+                      opacity={0.1}
+                      r={15}
+                    />
+                    <RNSVGPath
+                      d="M21.4 8.867a3.839 3.839 0 00-3.155-1.917A3.868 3.868 0 0015 5.192a3.868 3.868 0 00-3.246 1.758A3.868 3.868 0 008.6 8.867a3.822 3.822 0 00-.092 3.674 3.804 3.804 0 001.562 5.1v8.196a.7.7 0 00.404.635c.248.116.54.078.75-.096l3.774-3.128 3.774 3.128c.21.174.502.212.75.096a.7.7 0 00.405-.635v-8.196a3.802 3.802 0 001.565-5.1 3.791 3.791 0 00-.091-3.674zm-10.815 3.016a1.731 1.731 0 01-.156-1.966 1.754 1.754 0 011.79-.848c.49.074.967-.2 1.146-.659A1.75 1.75 0 0115 7.292a1.75 1.75 0 011.634 1.118c.181.458.656.73 1.145.657a1.754 1.754 0 011.794.848c.363.625.3 1.408-.159 1.968-.31.385-.31.932 0 1.317.457.56.52 1.341.156 1.965a1.752 1.752 0 01-1.79.847 1.07 1.07 0 00-1.144.656A1.75 1.75 0 0115 17.788a1.75 1.75 0 01-1.635-1.12 1.056 1.056 0 00-1.148-.656 1.755 1.755 0 01-1.794-.849 1.733 1.733 0 01.158-1.969c.31-.382.311-.927.004-1.311z"
+                      fillRule={1}
+                      propList={
+                        Array [
+                          "fillRule",
+                        ]
+                      }
+                    />
+                    <RNSVGPath
+                      d="M14.986 15c.546 0 .973-.114 1.282-.343.308-.23.463-.561.463-.996 0-.288-.076-.53-.228-.726-.152-.196-.37-.33-.657-.399a.998.998 0 00.505-.346 1.093 1.093 0 00.187-.646c0-.416-.15-.713-.452-.892-.301-.178-.759-.267-1.372-.267h-1.445V15h1.717zm-.127-2.71h-.733v-1.278h.56c.356 0 .615.045.779.135.163.09.245.256.245.498 0 .43-.284.646-.85.646zm.01 2.093h-.743v-1.497h.72c.344 0 .598.057.763.17.164.114.246.3.246.558 0 .512-.329.769-.986.769z"
+                      fillRule={1}
+                      propList={
+                        Array [
+                          "fillRule",
+                        ]
+                      }
+                    />
+                  </RNSVGGroup>
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+          </View>
+          <View
+            marginTop={1}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#F5F5F5",
+                  "height": 8,
+                  "marginTop": 1.5,
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "paddingLeft": 28,
+                  "paddingRight": 28,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexBasis": 0,
+                    "flexDirection": "column",
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexBasis": 0,
+                      "flexDirection": "row",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "paddingBottom": 16.5,
+                      "paddingTop": 16.5,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flexBasis": 0,
+                        "flexDirection": "column",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "flexWrap": "wrap",
+                        "justifyContent": "flex-start",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="getProfessionalDataButton"
+                  >
+                    <Text
+                      lineHeight={20}
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "color": "rgb(130, 130, 130)",
+                            "flexWrap": "wrap",
+                            "fontFamily": "SourceSansPro-Regular",
+                            "fontSize": 17.5,
+                            "lineHeight": 25,
+                            "paddingRight": 20,
+                            "width": 300,
+                          },
+                        ]
+                      }
+                    >
+                      Contact
+                    </Text>
+                    <Text
+                      ellipsizeMode="tail"
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#333333",
+                            "flexWrap": "wrap",
+                            "fontFamily": "SourceSansPro-Regular",
+                            "fontSize": 17.5,
+                            "lineHeight": 22.5,
+                            "paddingRight": 20,
+                            "textTransform": "capitalize",
+                            "width": 300,
+                          },
+                        ]
+                      }
+                    >
+                      PRO Cat DevCheck
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flexBasis": 0,
+                        "flexDirection": "column",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "flexWrap": "wrap",
+                        "justifyContent": "flex-start",
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "rgb(130, 130, 130)",
+                          "flexWrap": "wrap",
+                          "fontFamily": "SourceSansPro-Regular",
+                          "fontSize": 17.5,
+                          "lineHeight": 22.5,
+                          "paddingRight": 20,
+                          "width": 300,
+                        },
+                      ]
+                    }
+                  >
+                    Placed on
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "flexWrap": "wrap",
+                          "fontFamily": "SourceSansPro-Regular",
+                          "fontSize": 17.5,
+                          "lineHeight": 22.5,
+                          "paddingRight": 20,
+                          "width": 300,
+                        },
+                      ]
+                    }
+                  >
+                    27 Days ago
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexBasis": 0,
+                      "flexDirection": "row",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "paddingBottom": 16.5,
+                      "paddingTop": 16.5,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flexBasis": 0,
+                        "flexDirection": "column",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "flexWrap": "wrap",
+                        "justifyContent": "flex-start",
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "rgb(130, 130, 130)",
+                          "flexWrap": "wrap",
+                          "fontFamily": "SourceSansPro-Regular",
+                          "fontSize": 17.5,
+                          "lineHeight": 22.5,
+                          "paddingRight": 20,
+                          "width": 300,
+                        },
+                      ]
+                    }
+                  >
+                    Estimated Start Date
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "flexWrap": "wrap",
+                          "fontFamily": "SourceSansPro-Regular",
+                          "fontSize": 17.5,
+                          "lineHeight": 22.5,
+                          "paddingRight": 20,
+                          "width": 300,
+                        },
+                      ]
+                    }
+                  >
+                    April 29, 2022
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flexBasis": 0,
+                        "flexDirection": "column",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "flexWrap": "wrap",
+                        "justifyContent": "flex-start",
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "rgb(130, 130, 130)",
+                          "flexWrap": "wrap",
+                          "fontFamily": "SourceSansPro-Regular",
+                          "fontSize": 17.5,
+                          "lineHeight": 22.5,
+                          "paddingRight": 20,
+                          "width": 300,
+                        },
+                      ]
+                    }
+                  >
+                    Estimated Completion
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "flexWrap": "wrap",
+                          "fontFamily": "SourceSansPro-Regular",
+                          "fontSize": 17.5,
+                          "lineHeight": 22.5,
+                          "paddingRight": 20,
+                          "width": 300,
+                        },
+                      ]
+                    }
+                  >
+                    May 25, 2022
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexBasis": 0,
+                      "flexDirection": "row",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "paddingBottom": 16.5,
+                      "paddingTop": 16.5,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flexBasis": 0,
+                        "flexDirection": "column",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "flexWrap": "wrap",
+                        "justifyContent": "flex-start",
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "rgb(130, 130, 130)",
+                          "flexWrap": "wrap",
+                          "fontFamily": "SourceSansPro-Regular",
+                          "fontSize": 17.5,
+                          "lineHeight": 22.5,
+                          "paddingRight": 20,
+                          "width": 300,
+                        },
+                      ]
+                    }
+                  >
+                    Amount
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "flexWrap": "wrap",
+                          "fontFamily": "SourceSansPro-Regular",
+                          "fontSize": 17.5,
+                          "lineHeight": 22.5,
+                          "paddingRight": 20,
+                          "width": 300,
+                        },
+                      ]
+                    }
+                  >
+                    $1,222.00
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            marginTop={1}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#F5F5F5",
+                  "height": 8,
+                  "marginTop": 1.5,
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "paddingLeft": 28,
+                  "paddingRight": 28,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexBasis": 0,
+                    "flexDirection": "row",
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "paddingBottom": 16.5,
+                    "paddingTop": 16.5,
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexBasis": 0,
+                      "flexDirection": "column",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "rgb(130, 130, 130)",
+                        "flexWrap": "wrap",
+                        "fontFamily": "SourceSansPro-Regular",
+                        "fontSize": 17.5,
+                        "lineHeight": 22.5,
+                        "paddingRight": 20,
+                        "width": 300,
+                      },
+                    ]
+                  }
+                >
+                  Description
+                </Text>
+                <View>
+                  <Text
+                    numberOfLines={0}
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#333333",
+                            "fontFamily": "SourceSansPro-Regular",
+                            "fontSize": 17.5,
+                            "lineHeight": 22.5,
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      Condition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid Pending Condition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid PendingfdfdsfsdfsfsfsfsfsfsfsfsfsdfsdCondition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid Pending Condition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid PendingfdfdsfsdfsfsfsfsfsfsfsfsfsdfsdCondition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid Pending Condition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid PendingfdfdsfsdfsfsfsfsfsfsfsfsfsdfsdCondition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid Pending Condition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid PendingfdfdsfsdfsfsfsfsfsfsfsfsfsdfsdCondition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid Pending Condition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid PendingfdfdsfsdfsfsfsfsfsfsfsfsfsdfsdCondition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid Pending Condition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid PendingfdfdsfsdfsfsfsfsfsfsfsfsfsdfsdCondition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid Pending Condition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid PendingfdfdsfsdfsfsfsfsfsfsfsfsfsdfsdCondition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid Pending Condition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid PendingfdfdsfsdfsfsfsfsfsfsfsfsfsdfsdCondition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid Pending Condition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid PendingfdfdsfsdfsfsfsfsfsfsfsfsfsdfsdCondition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid Pending Condition HO create the Project and invite the 1 or more than 1 Professionals as Status Bid Pendingfdfdsfsdfsfsfsfsfsfsfsfsfsdfsd
+                    </Text>
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#00193d",
+                "borderRadius": 5,
+                "color": "#fff",
+                "height": 55,
+                "justifyContent": "center",
+                "marginBottom": 33,
+                "marginHorizontal": 48,
+                "marginTop": 24.5,
+                "opacity": 1,
+              }
+            }
+            testID="submitButton"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "Oxygen-Regular",
+                    "fontSize": 20,
+                  },
+                ]
+              }
+            >
+              Unaward Project
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#00193d",
+                "borderRadius": 5,
+                "color": "#fff",
+                "height": 55,
+                "justifyContent": "center",
+                "marginBottom": 33,
+                "marginHorizontal": 48,
+                "marginTop": 24.5,
+                "opacity": 1,
+              }
+            }
+            testID="listDialogButton"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "Oxygen-Regular",
+                    "fontSize": 20,
+                  },
+                ]
+              }
+            >
+              Chat
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "paddingLeft": 28,
+                  "paddingRight": 28,
+                },
+                Object {
+                  "marginBottom": 15,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexBasis": 0,
+                    "flexDirection": "row",
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "paddingBottom": 16.5,
+                    "paddingTop": 16.5,
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexBasis": 0,
+                      "flexDirection": "column",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "borderColor": "rgb(130, 130, 130)",
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "height": 82,
+                        "justifyContent": "center",
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "flex-start",
+                          "paddingRight": 10,
+                        },
+                      ]
+                    }
+                  >
+                    <RNSVGSvgView
+                      bbHeight={24}
+                      bbWidth={24}
+                      focusable={false}
+                      height={24}
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "transparent",
+                            "borderWidth": 0,
+                          },
+                          Object {
+                            "flex": 0,
+                            "height": 24,
+                            "width": 24,
+                          },
+                        ]
+                      }
+                      width={24}
+                    >
+                      <RNSVGGroup>
+                        <RNSVGGroup
+                          fill={4280391411}
+                          propList={
+                            Array [
+                              "fill",
+                            ]
+                          }
+                        >
+                          <RNSVGPath
+                            d="M12 0C5.367 0 0 5.368 0 12c0 6.633 5.368 12 12 12 6.633 0 12-5.368 12-12 0-6.633-5.368-12-12-12zm0 22.125A10.12 10.12 0 0 1 1.875 12 10.12 10.12 0 0 1 12 1.875 10.12 10.12 0 0 1 22.125 12 10.12 10.12 0 0 1 12 22.125z"
+                          />
+                          <RNSVGPath
+                            d="M12 10.047a.937.937 0 0 0-.938.937v6.037a.937.937 0 1 0 1.876 0v-6.037a.937.937 0 0 0-.938-.937z"
+                          />
+                          <RNSVGCircle
+                            cx="12"
+                            cy="7.633"
+                            r="1.266"
+                          />
+                        </RNSVGGroup>
+                      </RNSVGGroup>
+                    </RNSVGSvgView>
+                  </View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={5}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "fontFamily": "SourceSansPro-Regular",
+                          "fontSize": 17.5,
+                          "height": 70,
+                          "lineHeight": 22.5,
+                          "paddingTop": 25,
+                        },
+                      ]
+                    }
+                  >
+                    Once project has been awarded, you can retract project award within 5 minutes.
+                  </Text>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "marginTop": 16.5,
+                        },
+                      ]
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "marginTop": 16.5,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

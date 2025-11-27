@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bildsy</string>
+    <!-- TODO: Enable this for DEV -->
+    <string name="facebook_app_id">674629277773098</string>
+    <!-- TODO: Enable this for Production -->
+    <!-- <string name="facebook_app_id">708587387217595</string> -->
+    <string name="server_client_id">387937102554-apljoki6uh3a3ji388475c2en9jliuan.apps.googleusercontent.com</string>
+</resources>

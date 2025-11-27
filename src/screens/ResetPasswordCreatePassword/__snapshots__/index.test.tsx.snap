@@ -1,0 +1,589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly Renders correctly ResetPasswordCreatePassword view 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#00193d",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <Image
+    resizeMode="cover"
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/combined_shape.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "height": 72.5,
+          "marginBottom": 16.5,
+          "marginTop": 39.5,
+          "paddingLeft": 48,
+          "paddingRight": 48,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={20}
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 20,
+            },
+          ]
+        }
+        vbHeight={14}
+        vbWidth={14}
+        width={20}
+      >
+        <RNSVGGroup>
+          <RNSVGPath
+            d="M7.53.47a.75.75 0 01.067.984l-.067.076L2.81 6.25H13a.75.75 0 01.094 1.494L13 7.75H2.811l4.72 4.72a.75.75 0 01.066.984l-.067.076a.75.75 0 01-.984.067l-.076-.067-6-6-.064-.072a.752.752 0 01-.004-.005l.068.077A.754.754 0 01.25 7v-.03l.004-.044L.25 7a.754.754 0 01.153-.454L.47 6.47l6-6a.75.75 0 011.06 0z"
+            fill={4294967295}
+            fillRule={0}
+            propList={
+              Array [
+                "fill",
+                "fillRule",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Oxygen-Regular",
+            "fontSize": 25,
+            "fontWeight": "normal",
+            "paddingLeft": 30,
+            "paddingRight": 30,
+          },
+        ]
+      }
+    >
+      Reset Password
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "borderTopLeftRadius": 41,
+          "borderTopRightRadius": 41,
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "paddingBottom": 39.5,
+          "paddingLeft": 48,
+          "paddingRight": 48,
+          "paddingTop": 39.5,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "marginVertical": 8,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "marginVertical": 10,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        />
+        <View
+          backgroundColor="#fff"
+          multiline={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#fff",
+                "borderColor": "rgb(130, 130, 130)",
+                "borderRadius": 5,
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "height": 82,
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "color": "rgba(130, 130, 130, 1)",
+                  "fontSize": 20,
+                  "marginLeft": 0,
+                  "marginTop": 8,
+                  "paddingHorizontal": 30,
+                  "position": "absolute",
+                  "top": 16.5,
+                }
+              }
+            >
+              New Password*
+            </Text>
+          </View>
+          <View
+            multiline={false}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 82,
+                },
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="sentences"
+              caretHidden={false}
+              color="#333333"
+              contextMenuHidden={false}
+              editable={true}
+              isRightIcon={true}
+              keyboardType="default"
+              numberOfLines={1}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              onPressIn={[Function]}
+              rejectResponderTermination={true}
+              secureTextEntry={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "flexBasis": 0,
+                    "flexGrow": 0.9,
+                    "flexShrink": 1,
+                    "fontFamily": "Oxygen-Regular",
+                    "fontSize": 20,
+                    "paddingHorizontal": 28,
+                    "width": "100%",
+                  },
+                ]
+              }
+              testID="New Password *"
+              underlineColorAndroid="transparent"
+              value=""
+            />
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "flexBasis": 0,
+                  "flexGrow": 0.1,
+                  "flexShrink": 1,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 20,
+                  "top": 23,
+                }
+              }
+              testID="rightIcon"
+            >
+              <RNSVGSvgView
+                align="xMidYMid"
+                bbHeight={18}
+                bbWidth={20}
+                focusable={false}
+                height={18}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Object {
+                      "flex": 0,
+                      "height": 18,
+                      "width": 20,
+                    },
+                  ]
+                }
+                vbHeight={18}
+                vbWidth={20}
+                width={20}
+              >
+                <RNSVGGroup>
+                  <RNSVGPath
+                    d="M1.409.398l.084.068 17.334 16a.727.727 0 01-.903 1.136l-.084-.068-3.57-3.296a9.15 9.15 0 01-4.603 1.307c-2.63 0-4.94-1.177-6.912-3.118a15.12 15.12 0 01-1.772-2.101l-.21-.307L.6 9.751l-.138-.226-.101-.179a.727.727 0 01.01-.712 14.398 14.398 0 013.48-4.012L.508 1.534a.727.727 0 01.8-1.193l.102.057zm.439 8.605l.23.35.097.14c.452.647.988 1.295 1.6 1.898 1.722 1.695 3.695 2.7 5.88 2.7a7.716 7.716 0 003.494-.888l-1.855-1.71a3.257 3.257 0 01-2.438.383c-1.09-.257-1.953-1.053-2.24-2.088a2.765 2.765 0 01.368-2.273l-2.05-1.893A13.08 13.08 0 002.098 8.62l-.25.383zm7.819-6.549c2.629 0 4.94 1.178 6.911 3.119a15.12 15.12 0 011.773 2.101l.21.307.246.387.12.202.046.084a.727.727 0 01-.01.71 14.18 14.18 0 01-1.794 2.446.727.727 0 11-1.075-.98c.412-.452.79-.93 1.129-1.43l.262-.403-.141-.218-.185-.271a13.678 13.678 0 00-1.601-1.899c-1.722-1.695-3.695-2.7-5.893-2.7a7.032 7.032 0 00-1.5.158.727.727 0 11-.306-1.422 8.488 8.488 0 011.808-.19zM8.019 9.4c.141.512.586.923 1.17 1.06.322.076.652.062.953-.031l-2.06-1.901c-.12.275-.145.579-.063.872z"
+                    fill={4287269514}
+                    fillRule={0}
+                    propList={
+                      Array [
+                        "fill",
+                        "fillRule",
+                      ]
+                    }
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "marginVertical": 8,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "marginVertical": 10,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        />
+        <View
+          backgroundColor="#fff"
+          multiline={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#fff",
+                "borderColor": "rgb(130, 130, 130)",
+                "borderRadius": 5,
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "height": 82,
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "color": "rgba(130, 130, 130, 1)",
+                  "fontSize": 20,
+                  "marginLeft": 0,
+                  "marginTop": 8,
+                  "paddingHorizontal": 30,
+                  "position": "absolute",
+                  "top": 16.5,
+                }
+              }
+            >
+              Confirm New Password*
+            </Text>
+          </View>
+          <View
+            multiline={false}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 82,
+                },
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="sentences"
+              caretHidden={false}
+              color="#333333"
+              contextMenuHidden={false}
+              editable={true}
+              isRightIcon={true}
+              keyboardType="default"
+              numberOfLines={1}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              onPressIn={[Function]}
+              rejectResponderTermination={true}
+              secureTextEntry={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "flexBasis": 0,
+                    "flexGrow": 0.9,
+                    "flexShrink": 1,
+                    "fontFamily": "Oxygen-Regular",
+                    "fontSize": 20,
+                    "paddingHorizontal": 28,
+                    "width": "100%",
+                  },
+                ]
+              }
+              testID="Confirm New Password *"
+              underlineColorAndroid="transparent"
+              value=""
+            />
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "flexBasis": 0,
+                  "flexGrow": 0.1,
+                  "flexShrink": 1,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 20,
+                  "top": 23,
+                }
+              }
+              testID="rightIcon"
+            >
+              <RNSVGSvgView
+                align="xMidYMid"
+                bbHeight={18}
+                bbWidth={20}
+                focusable={false}
+                height={18}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Object {
+                      "flex": 0,
+                      "height": 18,
+                      "width": 20,
+                    },
+                  ]
+                }
+                vbHeight={18}
+                vbWidth={20}
+                width={20}
+              >
+                <RNSVGGroup>
+                  <RNSVGPath
+                    d="M1.409.398l.084.068 17.334 16a.727.727 0 01-.903 1.136l-.084-.068-3.57-3.296a9.15 9.15 0 01-4.603 1.307c-2.63 0-4.94-1.177-6.912-3.118a15.12 15.12 0 01-1.772-2.101l-.21-.307L.6 9.751l-.138-.226-.101-.179a.727.727 0 01.01-.712 14.398 14.398 0 013.48-4.012L.508 1.534a.727.727 0 01.8-1.193l.102.057zm.439 8.605l.23.35.097.14c.452.647.988 1.295 1.6 1.898 1.722 1.695 3.695 2.7 5.88 2.7a7.716 7.716 0 003.494-.888l-1.855-1.71a3.257 3.257 0 01-2.438.383c-1.09-.257-1.953-1.053-2.24-2.088a2.765 2.765 0 01.368-2.273l-2.05-1.893A13.08 13.08 0 002.098 8.62l-.25.383zm7.819-6.549c2.629 0 4.94 1.178 6.911 3.119a15.12 15.12 0 011.773 2.101l.21.307.246.387.12.202.046.084a.727.727 0 01-.01.71 14.18 14.18 0 01-1.794 2.446.727.727 0 11-1.075-.98c.412-.452.79-.93 1.129-1.43l.262-.403-.141-.218-.185-.271a13.678 13.678 0 00-1.601-1.899c-1.722-1.695-3.695-2.7-5.893-2.7a7.032 7.032 0 00-1.5.158.727.727 0 11-.306-1.422 8.488 8.488 0 011.808-.19zM8.019 9.4c.141.512.586.923 1.17 1.06.322.076.652.062.953-.031l-2.06-1.901c-.12.275-.145.579-.063.872z"
+                    fill={4287269514}
+                    fillRule={0}
+                    propList={
+                      Array [
+                        "fill",
+                        "fillRule",
+                      ]
+                    }
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "bottom": 49.5,
+            "position": "absolute",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#8A95A6",
+            "borderRadius": 5,
+            "color": "#fff",
+            "height": 55,
+            "justifyContent": "center",
+            "marginBottom": 33,
+            "marginTop": 24.5,
+            "opacity": 1,
+          }
+        }
+        testID="Reset Password"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontFamily": "Oxygen-Regular",
+                "fontSize": 20,
+              },
+            ]
+          }
+        >
+          Reset Password
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

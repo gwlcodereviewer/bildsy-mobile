@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly should renders correctly BlogDetailScreen view 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#00193d",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <Image
+    resizeMode="cover"
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/combined_shape.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "height": 44.5,
+          "marginBottom": 33,
+          "marginLeft": 48,
+          "marginTop": 33,
+          "width": 654,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "height": 72.5,
+            "marginTop": 8,
+            "paddingRight": 48,
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="backIconButton"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/back_button/iconsBack.png",
+            }
+          }
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Oxygen-Regular",
+            "fontSize": 20,
+            "fontWeight": "normal",
+            "height": 42.5,
+            "width": 218.5,
+          },
+        ]
+      }
+    >
+      Details
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderTopLeftRadius": 41,
+          "borderTopRightRadius": 41,
+        },
+      ]
+    }
+  >
+    <RCTScrollView
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+            "borderTopLeftRadius": 41,
+            "borderTopRightRadius": 41,
+            "height": "100%",
+            "paddingBottom": 98.5,
+          },
+        ]
+      }
+    >
+      <View>
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": undefined,
+            }
+          }
+          style={
+            Array [
+              Object {
+                "borderRadius": 4,
+                "borderTopLeftRadius": 41,
+                "borderTopRightRadius": 41,
+                "height": 455,
+                "width": "100%",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "marginBottom": 164.5,
+                "marginLeft": 48,
+                "marginRight": 48,
+                "marginTop": 39.5,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+              ]
+            }
+          >
+            <Image
+              resizeMode="cover"
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/blogImage/calendar.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  },
+                ]
+              }
+            />
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "SourceSansPro-Regular",
+                    "fontSize": 17.5,
+                    "lineHeight": 25,
+                    "marginLeft": 20,
+                  },
+                ]
+              }
+            >
+              April 3, 2023
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "rgb(130, 130, 130)",
+                    "flexWrap": "wrap",
+                    "fontFamily": "SourceSansPro-Regular",
+                    "fontSize": 17.5,
+                    "lineHeight": 22.5,
+                    "paddingRight": 20,
+                  },
+                ]
+              }
+            >
+              By:
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "flexWrap": "wrap",
+                    "fontFamily": "SourceSansPro-Regular",
+                    "fontSize": 17.5,
+                    "lineHeight": 22.5,
+                    "paddingRight": 20,
+                    "textTransform": "capitalize",
+                  },
+                ]
+              }
+            />
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#00193d",
+                  "fontFamily": "SourceSansPro-SemiBold",
+                  "fontSize": 25,
+                  "lineHeight": 37.5,
+                  "marginTop": 30,
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

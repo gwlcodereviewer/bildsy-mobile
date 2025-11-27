@@ -1,0 +1,170 @@
+{
+  "project_info": {
+    "project_number": "387937102554",
+    "project_id": "bildsyapp",
+    "storage_bucket": "bildsyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387937102554:android:93c6c7996180611d38d3e3",
+        "android_client_info": {
+          "package_name": "com.bildsy.ho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387937102554-apljoki6uh3a3ji388475c2en9jliuan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.ho",
+            "certificate_hash": "a67e658d48bb691e50b2dfab615747728072a325"
+          }
+        },
+        {
+          "client_id": "387937102554-hbbl2hnou0vb8k8etc336m9432arn99q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.ho",
+            "certificate_hash": "998d8379f97d5b1467d6067c480242cd0928b6d9"
+          }
+        },
+        {
+          "client_id": "387937102554-htmme0fte1c1k75sjfptpginfsd7c7qc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.ho",
+            "certificate_hash": "4c1dfb3433c34d9f4c3ed047bbecfac7cd9d6080"
+          }
+        },
+        {
+          "client_id": "387937102554-jg772tbcq20okf975r3va548p5gth49m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.ho",
+            "certificate_hash": "079be4989a7c57a705ca0a956b26da6e15c6e245"
+          }
+        },
+        {
+          "client_id": "387937102554-mjg45arfnlcta8mc42coigdthovuql89.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.ho",
+            "certificate_hash": "b4342cea2a6813059baa784b06d6f24f466f774f"
+          }
+        },
+        {
+          "client_id": "387937102554-srvgd5vriv3vb6s3ao3a60e6mtme0p30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJUUB0jT3l4KbpA0ZDn--YqayuBJDT-Ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387937102554-srvgd5vriv3vb6s3ao3a60e6mtme0p30.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "387937102554-1pofvmfkqecda078ncv7i0f0jl4ump8l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bildsy.pro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387937102554:android:19394ac853aeab8e38d3e3",
+        "android_client_info": {
+          "package_name": "com.bildsy.pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387937102554-06q6ipau2ieb3cidkohctek7re9sejes.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.pro",
+            "certificate_hash": "4c1dfb3433c34d9f4c3ed047bbecfac7cd9d6080"
+          }
+        },
+        {
+          "client_id": "387937102554-2gjslgmvpt1r35p3d8476b6c5pd462bn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.pro",
+            "certificate_hash": "a67e658d48bb691e50b2dfab615747728072a325"
+          }
+        },
+        {
+          "client_id": "387937102554-4mn9kgl6c7o02e20n2g1m7tea1pnnj9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.pro",
+            "certificate_hash": "079be4989a7c57a705ca0a956b26da6e15c6e245"
+          }
+        },
+        {
+          "client_id": "387937102554-ae34ibf126cbsv0662g21lb2c2gm8sd3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.pro",
+            "certificate_hash": "998d8379f97d5b1467d6067c480242cd0928b6d9"
+          }
+        },
+        {
+          "client_id": "387937102554-ko9gbeglehg133qi20tevq339dh086ru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.pro",
+            "certificate_hash": "2939e9bef4cdbcb19cba37589d5efcdd82b56e91"
+          }
+        },
+        {
+          "client_id": "387937102554-p7pi4b4retnibletdhf2dlchd5915v42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.pro",
+            "certificate_hash": "b4342cea2a6813059baa784b06d6f24f466f774f"
+          }
+        },
+        {
+          "client_id": "387937102554-srvgd5vriv3vb6s3ao3a60e6mtme0p30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJUUB0jT3l4KbpA0ZDn--YqayuBJDT-Ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387937102554-srvgd5vriv3vb6s3ao3a60e6mtme0p30.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "387937102554-1pofvmfkqecda078ncv7i0f0jl4ump8l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bildsy.pro"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

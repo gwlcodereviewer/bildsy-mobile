@@ -1,0 +1,780 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly should renders correctly Project view 1`] = `
+Array [
+  <Modal
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.3)",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 10,
+              "marginBottom": "auto",
+              "marginHorizontal": 48.5,
+              "marginTop": "auto",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "paddingHorizontal": 31,
+                "paddingVertical": 37.5,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "Oxygen-Regular",
+                  "fontSize": 22.5,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Mark Complete
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "Oxygen-Regular",
+                  "fontSize": 17.5,
+                  "marginTop": 16.5,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Are you sure you want to mark complete this project?
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderColor": "rgba(0, 25, 61, 0.1)",
+                "borderTopWidth": 1.5,
+                "opacity": 1,
+                "paddingVertical": 21.5,
+                "width": "50%",
+              }
+            }
+            testID="toggleButton"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Oxygen-Regular",
+                      "fontSize": 17.5,
+                      "fontWeight": "bold",
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                Cancel
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#00193D",
+                "borderColor": "rgba(0, 25, 61, 0.1)",
+                "borderTopWidth": 1.5,
+                "opacity": 1,
+                "paddingVertical": 21.5,
+                "width": "50%",
+              }
+            }
+            testID="completeButton"
+          >
+            <Text
+              color="#fff"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "color": "#fff",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "Oxygen-Bold",
+                    "fontSize": 17.5,
+                    "justifyContent": "center",
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              Mark Complete
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>,
+  <Modal
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.3)",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 10,
+              "marginBottom": "auto",
+              "marginHorizontal": 48.5,
+              "marginTop": "auto",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "paddingHorizontal": 31,
+                "paddingVertical": 37.5,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "Oxygen-Regular",
+                  "fontSize": 22.5,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Mark Archive
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "Oxygen-Regular",
+                  "fontSize": 17.5,
+                  "marginTop": 16.5,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Are you sure you want to archive this project?
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderColor": "rgba(0, 25, 61, 0.1)",
+                "borderTopWidth": 1.5,
+                "opacity": 1,
+                "paddingVertical": 21.5,
+                "width": "50%",
+              }
+            }
+            testID="archiveToggleButton"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Oxygen-Regular",
+                      "fontSize": 17.5,
+                      "fontWeight": "bold",
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                Cancel
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#00193D",
+                "borderColor": "rgba(0, 25, 61, 0.1)",
+                "borderTopWidth": 1.5,
+                "opacity": 1,
+                "paddingVertical": 21.5,
+                "width": "50%",
+              }
+            }
+            testID="archiveButton"
+          >
+            <Text
+              color="#fff"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "color": "#fff",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "Oxygen-Bold",
+                    "fontSize": 17.5,
+                    "justifyContent": "center",
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              Archive
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>,
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": 4,
+        "elevation": 8,
+        "height": "auto",
+        "marginBottom": 10,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 23,
+        "paddingTop": 33,
+        "shadowColor": "rgba(0, 0, 0, 0.4)",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 4,
+        "width": 654,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingBottom": 33,
+            "paddingLeft": 40,
+            "paddingRight": 40,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            },
+          ]
+        }
+      >
+        <View
+          color="#DBE6DC"
+          style={
+            Array [
+              Object {
+                "alignSelf": "flex-start",
+                "backgroundColor": "#DBE6DC",
+                "borderRadius": 25,
+                "color": "#fff",
+                "height": 46,
+                "marginBottom": 16.5,
+                "paddingHorizontal": 20,
+              },
+            ]
+          }
+        >
+          <Text
+            statusColor="#55875C"
+            style={
+              Array [
+                Object {
+                  "borderRadius": 25,
+                  "color": "#55875C",
+                  "fontFamily": "SourceSansPro-SemiBold",
+                  "marginBottom": "auto",
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "marginTop": "auto",
+                },
+              ]
+            }
+          >
+            Bidding
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <RNSVGSvgView
+            bbHeight={30}
+            bbWidth={30}
+            focusable={false}
+            height={30}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 30,
+                  "width": 30,
+                },
+              ]
+            }
+            width={30}
+          >
+            <RNSVGGroup>
+              <RNSVGGroup
+                fill={null}
+                name="Symbols"
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                  ]
+                }
+                stroke={null}
+              >
+                <RNSVGGroup
+                  fill={4278196541}
+                  name="Icon-/-More"
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                >
+                  <RNSVGPath
+                    d="M15.0833333,19.3333333 C16.2339266,19.3333333 17.1666667,20.2660734 17.1666667,21.4166667 C17.1666667,22.5672599 16.2339266,23.5 15.0833333,23.5 C13.9327401,23.5 13,22.5672599 13,21.4166667 C13,20.2660734 13.9327401,19.3333333 15.0833333,19.3333333 Z M15.0833333,12.6666667 C16.2339266,12.6666667 17.1666667,13.5994068 17.1666667,14.75 C17.1666667,15.9005932 16.2339266,16.8333333 15.0833333,16.8333333 C13.9327401,16.8333333 13,15.9005932 13,14.75 C13,13.5994068 13.9327401,12.6666667 15.0833333,12.6666667 Z M15.0833333,6 C16.2339266,6 17.1666667,6.9327401 17.1666667,8.08333333 C17.1666667,9.23392656 16.2339266,10.1666667 15.0833333,10.1666667 C13.9327401,10.1666667 13,9.23392656 13,8.08333333 C13,6.9327401 13.9327401,6 15.0833333,6 Z"
+                    name="Combined-Shape"
+                  />
+                </RNSVGGroup>
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="Project"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#333333",
+                "fontFamily": "Oxygen-Regular",
+                "fontSize": 22.5,
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          Test Bld 1875
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#333333",
+                "fontFamily": "SourceSansPro-Regular",
+                "fontSize": 20,
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          Project Type: Exterior Project
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#333333",
+                "fontFamily": "SourceSansPro-Regular",
+                "fontSize": 20,
+                "marginBottom": 41,
+              },
+            ]
+          }
+        >
+          Location: California, United States
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#999999",
+                    "fontFamily": "SourceSansPro-Regular",
+                    "fontSize": 20,
+                    "marginBottom": 10,
+                  },
+                ]
+              }
+            >
+              Budget
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "SourceSansPro-Regular",
+                    "fontSize": 20,
+                  },
+                ]
+              }
+            >
+              $8,000.00
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#999999",
+                    "fontFamily": "SourceSansPro-Regular",
+                    "fontSize": 20,
+                    "marginBottom": 10,
+                  },
+                ]
+              }
+            >
+              Expected Start Date
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "SourceSansPro-Regular",
+                    "fontSize": 20,
+                  },
+                ]
+              }
+            >
+              July 7, 2022
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderColor": "rgba(0, 25, 61, 0.1)",
+            "borderTopWidth": 1.5,
+            "opacity": 1,
+            "paddingVertical": 21.5,
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "zIndex": 1,
+              }
+            }
+            testID="makeCallButton"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "center",
+                    "color": "#34AA44",
+                    "fontFamily": "Oxygen-Bold",
+                    "fontSize": 20,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              Call
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00193D",
+            "borderColor": "rgba(0, 25, 61, 0.1)",
+            "borderTopWidth": 1.5,
+            "opacity": 1,
+            "paddingVertical": 21.5,
+            "width": "50%",
+          }
+        }
+        testID="toggleMenuButton"
+      >
+        <Text
+          color="#fff"
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "color": "#fff",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "Oxygen-Bold",
+                "fontSize": 17.5,
+                "justifyContent": "center",
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Mark Complete
+        </Text>
+      </View>
+    </View>
+  </View>,
+]
+`;

@@ -1,0 +1,633 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly Renders correctly BlogScreen view 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#00193d",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <Image
+    resizeMode="cover"
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/combined_shape.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "height": 72.5,
+          "marginBottom": 16.5,
+          "marginTop": 39.5,
+          "paddingLeft": 48,
+          "paddingRight": 48,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="toggleMenuButton"
+    >
+      <RNSVGSvgView
+        bbHeight={24}
+        bbWidth={24}
+        focusable={false}
+        height={24}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 24,
+              "width": 24,
+            },
+          ]
+        }
+        width={24}
+      >
+        <RNSVGGroup>
+          <RNSVGPath
+            d="M21 17.5a1 1 0 01.117 1.993L21 19.5H3a1 1 0 01-.117-1.993L3 17.5h18zm0-6a1 1 0 01.117 1.993L21 13.5H3a1 1 0 01-.117-1.993L3 11.5h18zm0-6a1 1 0 01.117 1.993L21 7.5H3a1 1 0 01-.117-1.993L3 5.5h18z"
+            fill={4294967295}
+            fillRule={0}
+            propList={
+              Array [
+                "fill",
+                "fillRule",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "borderColor": "#fff",
+            "borderRadius": 25,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "height": 65.5,
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "width": 486,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "marginLeft": 28,
+              "marginRight": 28,
+            },
+          ]
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={24}
+          bbWidth={20}
+          focusable={false}
+          height={24}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "flex": 0,
+                "height": 24,
+                "width": 20,
+              },
+            ]
+          }
+          width={20}
+        >
+          <RNSVGGroup>
+            <RNSVGGroup
+              fill={4294967295}
+              fillRule={0}
+              propList={
+                Array [
+                  "fill",
+                  "fillRule",
+                ]
+              }
+            >
+              <RNSVGPath
+                d="M17.76 11.04a6.72 6.72 0 01-6.72 6.72v1.92a8.64 8.64 0 008.64-8.64h-1.92zm-6.72 6.72a6.72 6.72 0 01-6.72-6.72H2.4a8.64 8.64 0 008.64 8.64v-1.92zm-6.72-6.72a6.72 6.72 0 016.72-6.72V2.4a8.64 8.64 0 00-8.64 8.64h1.92zm6.72-6.72a6.72 6.72 0 016.72 6.72h1.92a8.64 8.64 0 00-8.64-8.64v1.92z"
+              />
+              <RNSVGPath
+                d="M19.961 21.319a.96.96 0 101.358-1.358L19.96 21.32zm-2.818-5.534a.96.96 0 00-1.358 1.358l1.358-1.358zm4.176 4.176l-4.176-4.176-1.358 1.358 4.176 4.176 1.358-1.358z"
+              />
+            </RNSVGGroup>
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        autoFocus={false}
+        onChangeText={[Function]}
+        placeholder="Search"
+        placeholderTextColor="#fff"
+        rejectResponderTermination={true}
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "flexShrink": 1,
+              "fontFamily": "SourceSansPro-Regular",
+              "fontSize": 20,
+              "marginRight": 28,
+              "width": "100%",
+            },
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "borderTopLeftRadius": 41,
+          "borderTopRightRadius": 41,
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "100%",
+          "paddingBottom": 98.5,
+        },
+      ]
+    }
+    textLimit=""
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+            "borderTopLeftRadius": 41,
+            "borderTopRightRadius": 41,
+            "height": 98.5,
+            "marginTop": 7,
+          },
+        ]
+      }
+    >
+      <RCTScrollView
+        horizontal={true}
+        style={
+          Object {
+            "borderTopLeftRadius": 41,
+            "borderTopRightRadius": 41,
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 98.5,
+                },
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "height": 41,
+                  "marginLeft": 10,
+                  "opacity": 1,
+                }
+              }
+              testID="categoryButton"
+            >
+              <View
+                select="Bildsy"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "rgba(237, 119, 47, 0.1)",
+                      "borderRadius": 25,
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "height": 30,
+                      "marginRight": 10,
+                    },
+                  ]
+                }
+                title="Bildsy"
+              >
+                <Text
+                  select="Bildsy"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#ed772f",
+                        "fontFamily": "SourceSansPro-SemiBold",
+                        "fontSize": 22.5,
+                        "marginLeft": 40,
+                        "marginRight": 40,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                  title="Bildsy"
+                >
+                  Bildsy
+                </Text>
+              </View>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "height": 41,
+                  "marginLeft": 10,
+                  "opacity": 1,
+                }
+              }
+              testID="categoryButton"
+            >
+              <View
+                select="Bildsy"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#cbd0d6",
+                      "borderRadius": 25,
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "height": 30,
+                      "marginRight": 10,
+                    },
+                  ]
+                }
+                title="DIY"
+              >
+                <Text
+                  select="Bildsy"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#7C7A82",
+                        "fontFamily": "SourceSansPro-SemiBold",
+                        "fontSize": 22.5,
+                        "marginLeft": 40,
+                        "marginRight": 40,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                  title="DIY"
+                >
+                  DIY
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#D3D3D5",
+              "borderStyle": "solid",
+              "borderWidth": 1,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "paddingBottom": 39.5,
+            "paddingTop": 39.5,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <RCTScrollView
+        data={
+          Array [
+            Object {
+              "AddNewComment": Object {
+                "CommentText": null,
+                "CustomProperties": Object {},
+                "DisplayCaptcha": false,
+                "Id": 0,
+              },
+              "AllowComments": false,
+              "BlogCategoryId": 31,
+              "BlogCategoryName": "DIY",
+              "BlogPostStatus": "Approved",
+              "BlogPostStatusId": 10,
+              "Body": "<p>8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog</p>",
+              "BodyOverview": "8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog",
+              "Comments": Array [],
+              "CompanyName": null,
+              "CreatedBy": 1,
+              "CreatedByName": "Bildsy Admin",
+              "CreatedByValue": null,
+              "CreatedOn": "2022-04-08T19:00:09",
+              "CustomProperties": Object {},
+              "CustomerAvatar": "",
+              "DefaultPictureModel": Object {
+                "AlternateText": "Picture of 8 April 2022 Admin Blog",
+                "CustomProperties": Object {},
+                "FullSizeImageUrl": "http://20.225.146.22/images/default-image-blog.png",
+                "ImageUrl": "http://20.225.146.22/images/default-image-blog.png",
+                "ThumbImageUrl": null,
+                "Title": "Show details for 8 April 2022 Admin Blog",
+              },
+              "Id": 167,
+              "MetaDescription": null,
+              "MetaKeywords": null,
+              "MetaTitle": null,
+              "NumberOfComments": 0,
+              "RedirectTo": null,
+              "RejectReason": "",
+              "SeName": "8-april-2022-admin-blog",
+              "Tags": Array [],
+              "Title": "8 April 2022 Admin Blog",
+            },
+          ]
+        }
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        onContentSizeChange={[Function]}
+        onEndReached={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "paddingHorizontal": 40,
+          }
+        }
+        testID="blogList"
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#fff",
+                  "elevation": 9,
+                  "height": "auto",
+                  "marginBottom": 36,
+                  "opacity": 1,
+                  "shadowColor": "rgba(0, 0, 0, 0.3)",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 5,
+                }
+              }
+            >
+              <Image
+                resizeMode="cover"
+                source={
+                  Object {
+                    "uri": "http://20.225.146.22/images/default-image-blog.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "borderRadius": 5,
+                      "height": 328.5,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "marginBottom": 33,
+                      "marginLeft": 40,
+                      "marginRight": 40,
+                      "marginTop": 33,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#00193d",
+                        "fontFamily": "Oxygen-Bold",
+                        "fontSize": 22.5,
+                        "lineHeight": 30,
+                        "marginBottom": 5,
+                      },
+                    ]
+                  }
+                >
+                  8 April 2022 Admin Blog
+                </Text>
+                <Text
+                  ellipsizeMode="tail"
+                  numberOfLines={2}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#00193d",
+                        "fontFamily": "SourceSansPro-Regular",
+                        "fontSize": 20,
+                      },
+                    ]
+                  }
+                >
+                  8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog8 April 2022 Admin Blog
+                </Text>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 18,
+                      },
+                    ]
+                  }
+                >
+                  <Image
+                    resizeMode="cover"
+                    source={
+                      Object {
+                        "uri": "",
+                      }
+                    }
+                    style={
+                      Array [
+                        Object {
+                          "borderRadius": 20,
+                          "height": 40,
+                          "width": 40,
+                        },
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "marginLeft": 30,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#333333",
+                            "fontFamily": "SourceSansPro-Regular",
+                            "fontSize": 17.5,
+                            "textTransform": "capitalize",
+                          },
+                        ]
+                      }
+                    >
+                      By: Bildsy Admin
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#333333",
+                            "fontFamily": "SourceSansPro-Regular",
+                            "fontSize": 17.5,
+                            "marginTop": 5,
+                          },
+                        ]
+                      }
+                    >
+                      April 8, 2022
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</View>
+`;

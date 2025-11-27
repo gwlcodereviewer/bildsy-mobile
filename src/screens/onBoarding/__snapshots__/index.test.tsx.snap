@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly should renders correctly OnBoarding view 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCViewPager
+    initialPage={0}
+    onMoveShouldSetResponderCapture={[Function]}
+    onPageScroll={[Function]}
+    onPageScrollStateChanged={[Function]}
+    onPageSelected={[Function]}
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+  >
+    <View
+      collapsable={false}
+      style={
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+            "height": undefined,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": undefined,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <View
+          accessibilityIgnoresInvertColors={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#00193d",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+            ]
+          }
+        >
+          <Image
+            resizeMode="cover"
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/combined_shape.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                Object {
+                  "height": undefined,
+                  "width": undefined,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "white",
+                  "borderTopLeftRadius": 54,
+                  "borderTopRightRadius": 54,
+                  "height": 857.5,
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "position": "absolute",
+                  "top": 148,
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/Illustration_1.png",
+                }
+              }
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            />
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "Oxygen-Bold",
+                    "fontSize": 27.5,
+                    "marginTop": 148,
+                  },
+                ]
+              }
+            >
+              Create Projects
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "SourceSansPro-Regular",
+                    "fontSize": 20,
+                    "marginTop": 16.5,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              Looking to update your home? Get 
+started with Bildsy!
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      collapsable={false}
+      style={
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+            "height": undefined,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": undefined,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <View
+          accessibilityIgnoresInvertColors={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#00193d",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+            ]
+          }
+        >
+          <Image
+            resizeMode="cover"
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/combined_shape.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                Object {
+                  "height": undefined,
+                  "width": undefined,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "white",
+                  "borderTopLeftRadius": 54,
+                  "borderTopRightRadius": 54,
+                  "height": 857.5,
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "position": "absolute",
+                  "top": 148,
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/Illustration_2.png",
+                }
+              }
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            />
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "Oxygen-Bold",
+                    "fontSize": 27.5,
+                    "marginTop": 148,
+                  },
+                ]
+              }
+            >
+              Hire Experts
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "SourceSansPro-Regular",
+                    "fontSize": 20,
+                    "marginTop": 16.5,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              Search and hire top-rated industry 
+professionals to collaborate with you 
+on your projects.
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RNCViewPager>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "position": "absolute",
+          "top": "90%",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="skipButton"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Oxygen-Regular",
+              "fontSize": 22.5,
+              "marginLeft": 60,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Skip
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "flexDirection": "row",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#ed772f",
+              "borderRadius": 4,
+              "height": 8,
+              "marginBottom": 5,
+              "marginLeft": 5,
+              "marginRight": 5,
+              "marginTop": 5,
+              "width": 8,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#828282",
+              "borderRadius": 4,
+              "height": 8,
+              "marginBottom": 5,
+              "marginLeft": 5,
+              "marginRight": 5,
+              "marginTop": 5,
+              "width": 8,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="pageChangeButton"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Oxygen-Regular",
+              "fontSize": 22.5,
+              "marginRight": 60,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Next
+      </Text>
+    </View>
+  </View>
+</View>
+`;

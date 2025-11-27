@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>387937102554-cali5bi0ugfv7lr56e4m8b0as2to5605.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.387937102554-cali5bi0ugfv7lr56e4m8b0as2to5605</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>387937102554-p9557amh8ros5gupa9ajbmlk0skp3jej.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCz6mXETvE4QR01CixO7aY-MNUutMhEF3E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>387937102554</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bildsy.ho</string>
+	<key>PROJECT_ID</key>
+	<string>bildsyapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bildsyapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:387937102554:ios:4cec5c486589778138d3e3</string>
+</dict>
+</plist>

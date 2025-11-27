@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "387937102554",
+    "project_id": "bildsyapp",
+    "storage_bucket": "bildsyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387937102554:android:93c6c7996180611d38d3e3",
+        "android_client_info": {
+          "package_name": "com.bildsy.ho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387937102554-hbbl2hnou0vb8k8etc336m9432arn99q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.ho",
+            "certificate_hash": "998d8379f97d5b1467d6067c480242cd0928b6d9"
+          }
+        },
+        {
+          "client_id": "387937102554-jg772tbcq20okf975r3va548p5gth49m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bildsy.ho",
+            "certificate_hash": "079be4989a7c57a705ca0a956b26da6e15c6e245"
+          }
+        },
+        {
+          "client_id": "387937102554-srvgd5vriv3vb6s3ao3a60e6mtme0p30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJUUB0jT3l4KbpA0ZDn--YqayuBJDT-Ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387937102554-srvgd5vriv3vb6s3ao3a60e6mtme0p30.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "387937102554-cali5bi0ugfv7lr56e4m8b0as2to5605.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bildsy.ho"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
